@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Frontend
+news-front/node_modules/
+news-front/dist/
+news-front/.env.local
+news-front/.env.*.local
+news-front/npm-debug.log*
+news-front/yarn-debug.log*
+news-front/yarn-error.log*
+news-front/pnpm-debug.log*
+
+# Backend / Java
+web-project/**/target/
+web-project/**/logs/
+web-project/**/*.log
+*.class
+
+# Temp files
+*_tmp*.sql
+*.orig
